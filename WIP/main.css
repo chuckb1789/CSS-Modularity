@@ -1,18 +1,112 @@
-.instruction-answer {
+.Horizontal {
   text-align: center;
-  display: inline;
+  margin: auto;
 }
-
-.A {
+.Box-A {
   padding-right: 40px;
 }
-.C {
+.Box-C {
   padding-left: 40px;
 }
-.GroupB {
 
-  width: auto;
+.Horizontal2 {
+  margin: auto;
+  position: relative;
+  display: inline-block;
 }
-.List {
-  text-align: center;
+.Box-1 {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+}
+.Box-2 {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  display: inline-block;
+}
+.Hello {
+  position: relative;
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  padding-left: 40px;
+
+}
+.Box-3 {
+  height: 80px;
+  width: 80px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 80px;
+}
+.list {
+  display: block;
+  height: 160px;
+  width: 160px;
+  margin: auto;
+}
+/*Question 2A: Vertical Alignment*/
+.Vertical {
+  height: 300px
+  width: 300px
+  display: inline-block;
+}
+.InnerVertical {
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+  padding-top: 75px;
+}
+/*Question 2B: Vertical Alignment*/
+
+.Vertical2 {
+  position: relative;
+  height: 300px
+  width: 300px
+  display: inline-block;
+}
+.Vertical2Inner {
+  position: relative;
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+}
+/* Question 3: Horizontal List */
+
+.horizontal-list {
+  display: inline;
+  list-style-type: none;
+}
+
+/* Question 4: Buttons */
+.button {
+background-color: lightcoral;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border-radius: 6px;
+font-style: normal;
+font-family: Arial, sans-serif;
+}
+.button1 {
+  padding: 15px 70px;
+  font-size: 30px;
+}
+.button2 {
+  padding: 12px 50px;
+  font-size: 16px;
+}
+.button3 {
+  padding: 7px 10px;
+  font-size: 14px;
+}
+.button4 {
+  padding: 10px 50px;
+  font-size: 14px;
 }
