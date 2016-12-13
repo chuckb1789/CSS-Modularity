@@ -1,9 +1,18 @@
-.Module-1 {
+.instruction-answer {
   text-align: center;
+  display: inline;
 }
+
 .A {
   padding-right: 40px;
 }
 .C {
   padding-left: 40px;
+}
+.GroupB {
+
+  width: auto;
+}
+.List {
+  text-align: center;
 }
